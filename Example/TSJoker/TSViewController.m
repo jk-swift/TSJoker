@@ -21,11 +21,16 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     [TSJoker registerWithHost:@"http://47.95.244.17/api/link/fetch"];
-    [TSJoker syncFetchWithParams:nil success:^(NSDictionary * dict) {
-        NSLog(@"%@", dict);
+    NSDictionary *params = @{
+        @"bundle_id": @"com.momingqihuo.insest",
+        @"build_no": @"1.5.1"
+    };
+    [TSJoker asyncFetchWithParams:params success:^(NSDictionary * dict) {
+        NSLog(@"RESULT: %@", dict);
     } failed:^(NSError * error) {
-        NSLog(@"%@", error);
+        NSLog(@"RESULT: %@", error);
     }];
+    NSLog(@"Hello world!");
 }
 
 - (void)didReceiveMemoryWarning

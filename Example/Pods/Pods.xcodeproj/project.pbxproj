@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		011229802A92AFECAD1346F81B82CF84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		061D2E2A31A5687F6F36930BA971B368 /* Pods-TSJoker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB7A8077CD4016A17213EDE46682261 /* Pods-TSJoker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		188C832BA619D54EDC9FB0BEE3C345ED /* TSJoker.h in Headers */ = {isa = PBXBuildFile; fileRef = E6CFC372AE07F164794258FBD4F695BC /* TSJoker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		188C832BA619D54EDC9FB0BEE3C345ED /* TSJoker.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC82DDF7B394BF68A3C3F304E320059 /* TSJoker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E841D5F2D0FF62851D9C6BE8DF5C42C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		69B0BAFF55A6557F33A2223D0D1D7ACA /* Pods-TSJoker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D9484FFC6CC65B3141C891B694088C /* Pods-TSJoker_Tests-dummy.m */; };
-		6FF4A3E407B37922D2CF12E838A01439 /* TSJoker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA617F0627DA08C9AA0B8735BC1DD04F /* TSJoker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		925CE02BB9688DFB778BD65BFA08DCFA /* TSJoker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C74AB2E57768041A96F7430FCA925 /* TSJoker-dummy.m */; };
+		6FF4A3E407B37922D2CF12E838A01439 /* TSJoker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18CEFF4B8312618AA648BFAF144D08BB /* TSJoker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		925CE02BB9688DFB778BD65BFA08DCFA /* TSJoker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0285652FEDDF12A02548BB1BA3648 /* TSJoker-dummy.m */; };
 		98BF993C6DC4FF3AB7FABC41E9CB1BBF /* Pods-TSJoker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33DEF6E9732BEAE91AE59DE587D99DBA /* Pods-TSJoker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DDEBE832A1DE3460D3960C6F71C4FF1 /* TSJoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 253F317F3A210E202B082273DE1FEBBC /* TSJoker.m */; };
+		9DDEBE832A1DE3460D3960C6F71C4FF1 /* TSJoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 211A828C340980A98AB7A026B7230004 /* TSJoker.m */; };
 		DB0F4913E5FAAD1C1E42CBD576C713CA /* Pods-TSJoker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A8A65CC274A37E559B9B7024A2E8EF /* Pods-TSJoker_Example-dummy.m */; };
 		EEE96B4E06C64921E83BBA6B1ADFF467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -28,7 +28,7 @@
 			remoteGlobalIDString = E5E41EE1C47F8C2CC660F1CA8ED11CBA;
 			remoteInfo = TSJoker;
 		};
-		4ABFF99CCED29B34B72C4F885D076F0C /* PBXContainerItemProxy */ = {
+		A210F1ACD559CE96419373A6DE191D88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,14 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03FE94B3A2748F4CF9883A84E298450A /* TSJoker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TSJoker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0BE46510F99909071EB050074D24FDA9 /* Pods-TSJoker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TSJoker_Example.modulemap"; sourceTree = "<group>"; };
-		0E4BEE3687B3B470916002E1CDC94F9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		12C0285652FEDDF12A02548BB1BA3648 /* TSJoker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSJoker-dummy.m"; sourceTree = "<group>"; };
 		15A8A65CC274A37E559B9B7024A2E8EF /* Pods-TSJoker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSJoker_Example-dummy.m"; sourceTree = "<group>"; };
 		183CF96E62D910DCD88A0B1E2407F884 /* Pods_TSJoker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TSJoker_Example.framework; path = "Pods-TSJoker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		253F317F3A210E202B082273DE1FEBBC /* TSJoker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSJoker.m; path = TSJoker/Classes/TSJoker.m; sourceTree = "<group>"; };
+		18CEFF4B8312618AA648BFAF144D08BB /* TSJoker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSJoker-umbrella.h"; sourceTree = "<group>"; };
+		211A828C340980A98AB7A026B7230004 /* TSJoker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSJoker.m; path = TSJoker/Classes/TSJoker.m; sourceTree = "<group>"; };
 		2E9F616C4EC1F27E49457780AB6FEC7B /* Pods-TSJoker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSJoker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3332D02D6DA246E514B9E017EE41A733 /* TSJoker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TSJoker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		33DEF6E9732BEAE91AE59DE587D99DBA /* Pods-TSJoker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSJoker_Example-umbrella.h"; sourceTree = "<group>"; };
 		3587D2F2FE14518FB1D3EBB154B7B106 /* Pods-TSJoker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSJoker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		38C89F886788A38BC5E9646AD29F1478 /* TSJoker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TSJoker.framework; path = TSJoker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,22 +56,22 @@
 		5C044B095E85093E8719856BE30927B4 /* Pods-TSJoker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSJoker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6470A895B3F80C7845CF59CDAD026821 /* Pods-TSJoker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSJoker_Example-Info.plist"; sourceTree = "<group>"; };
 		68332A109373C1277AACB410E328524F /* Pods-TSJoker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSJoker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		89BE1B882EE468760E537938E4FF3A00 /* TSJoker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSJoker-prefix.pch"; sourceTree = "<group>"; };
+		6C3A00F7CD7B8861ABA293BA8F52E6AA /* TSJoker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TSJoker.modulemap; sourceTree = "<group>"; };
+		770E019C40926106F88A78E21A3931F6 /* TSJoker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSJoker-prefix.pch"; sourceTree = "<group>"; };
+		8ECF6659C228488314DE548760774D07 /* TSJoker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSJoker.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E0A59EBD2EC0AAD6DA6730417EBF2FE /* Pods-TSJoker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSJoker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AEDFC7235D2A528FCD98970B4175EC0A /* Pods-TSJoker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSJoker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B1BF76776D621658608F0F7867247F3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B2FA412B78223DBE5E995532F18B768B /* Pods-TSJoker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSJoker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B3D617097AFB52D824AE2507E742EEAF /* TSJoker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSJoker-Info.plist"; sourceTree = "<group>"; };
-		BB61B322010CB0E4B44BF7561ACE8AF8 /* TSJoker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSJoker.xcconfig; sourceTree = "<group>"; };
 		BDD28B8335F5C0490F07B744533324A3 /* Pods-TSJoker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSJoker_Tests-Info.plist"; sourceTree = "<group>"; };
+		BEC82DDF7B394BF68A3C3F304E320059 /* TSJoker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSJoker.h; path = TSJoker/Classes/TSJoker.h; sourceTree = "<group>"; };
+		C6B31B0293B6B6B94C2C62E581C70DE1 /* TSJoker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSJoker.debug.xcconfig; sourceTree = "<group>"; };
+		C8F51B369C0754E6A8F16FB739B56BA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D1E37C1E8B8BCC3BF284B9EA975AFD88 /* Pods-TSJoker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TSJoker_Tests.modulemap"; sourceTree = "<group>"; };
-		D58C74AB2E57768041A96F7430FCA925 /* TSJoker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSJoker-dummy.m"; sourceTree = "<group>"; };
 		D615173CCCB1E4A4DC0C629177F32B2B /* Pods-TSJoker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSJoker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E6CFC372AE07F164794258FBD4F695BC /* TSJoker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSJoker.h; path = TSJoker/Classes/TSJoker.h; sourceTree = "<group>"; };
-		EBA7DBF9B0865D2905EE6DA0D08BCABD /* TSJoker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TSJoker.modulemap; sourceTree = "<group>"; };
+		E2BD18EE4449E0CEA2AC7580E6F342B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F5D9484FFC6CC65B3141C891B694088C /* Pods-TSJoker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSJoker_Tests-dummy.m"; sourceTree = "<group>"; };
-		FA617F0627DA08C9AA0B8735BC1DD04F /* TSJoker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSJoker-umbrella.h"; sourceTree = "<group>"; };
+		F7A624D56D54F2D9C00E27B7BAC1C928 /* TSJoker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSJoker-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,28 +102,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D919216877E63FE8371ADC486D55EC6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0E4BEE3687B3B470916002E1CDC94F9B /* LICENSE */,
-				B1BF76776D621658608F0F7867247F3A /* README.md */,
-				03FE94B3A2748F4CF9883A84E298450A /* TSJoker.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		36AAD9BB9A0255D073329A05C154B13E /* TSJoker */ = {
-			isa = PBXGroup;
-			children = (
-				E6CFC372AE07F164794258FBD4F695BC /* TSJoker.h */,
-				253F317F3A210E202B082273DE1FEBBC /* TSJoker.m */,
-				1D919216877E63FE8371ADC486D55EC6 /* Pod */,
-				5F73D08A8C48D625981818145B201F78 /* Support Files */,
-			);
-			name = TSJoker;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		4AB789BCCADF474033AF674A20C4A948 /* Pods-TSJoker_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,20 +116,6 @@
 			);
 			name = "Pods-TSJoker_Tests";
 			path = "Target Support Files/Pods-TSJoker_Tests";
-			sourceTree = "<group>";
-		};
-		5F73D08A8C48D625981818145B201F78 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EBA7DBF9B0865D2905EE6DA0D08BCABD /* TSJoker.modulemap */,
-				BB61B322010CB0E4B44BF7561ACE8AF8 /* TSJoker.xcconfig */,
-				D58C74AB2E57768041A96F7430FCA925 /* TSJoker-dummy.m */,
-				B3D617097AFB52D824AE2507E742EEAF /* TSJoker-Info.plist */,
-				89BE1B882EE468760E537938E4FF3A00 /* TSJoker-prefix.pch */,
-				FA617F0627DA08C9AA0B8735BC1DD04F /* TSJoker-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TSJoker";
 			sourceTree = "<group>";
 		};
 		6B7E0631D56488C9A8B23419D824CD60 /* Pods-TSJoker_Example */ = {
@@ -170,6 +135,16 @@
 			path = "Target Support Files/Pods-TSJoker_Example";
 			sourceTree = "<group>";
 		};
+		74F1BA4F8DCACE262B8BA8CE5FB50992 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C8F51B369C0754E6A8F16FB739B56BA8 /* LICENSE */,
+				E2BD18EE4449E0CEA2AC7580E6F342B4 /* README.md */,
+				3332D02D6DA246E514B9E017EE41A733 /* TSJoker.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		A70A2C6A601B113CC4711B3F7BC7B4E3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +152,21 @@
 				4AB789BCCADF474033AF674A20C4A948 /* Pods-TSJoker_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC5445C4869C611C55C087A95C558CCA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C3A00F7CD7B8861ABA293BA8F52E6AA /* TSJoker.modulemap */,
+				12C0285652FEDDF12A02548BB1BA3648 /* TSJoker-dummy.m */,
+				F7A624D56D54F2D9C00E27B7BAC1C928 /* TSJoker-Info.plist */,
+				770E019C40926106F88A78E21A3931F6 /* TSJoker-prefix.pch */,
+				18CEFF4B8312618AA648BFAF144D08BB /* TSJoker-umbrella.h */,
+				C6B31B0293B6B6B94C2C62E581C70DE1 /* TSJoker.debug.xcconfig */,
+				8ECF6659C228488314DE548760774D07 /* TSJoker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TSJoker";
 			sourceTree = "<group>";
 		};
 		B650F376D45B956205A06F7E926C52F7 /* Products */ = {
@@ -187,6 +177,18 @@
 				38C89F886788A38BC5E9646AD29F1478 /* TSJoker.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B7E3988881ADF327B6BBB227213F068E /* TSJoker */ = {
+			isa = PBXGroup;
+			children = (
+				BEC82DDF7B394BF68A3C3F304E320059 /* TSJoker.h */,
+				211A828C340980A98AB7A026B7230004 /* TSJoker.m */,
+				74F1BA4F8DCACE262B8BA8CE5FB50992 /* Pod */,
+				AC5445C4869C611C55C087A95C558CCA /* Support Files */,
+			);
+			name = TSJoker;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -219,7 +221,7 @@
 		E8E2E7744442985E87B147452FCE5B63 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				36AAD9BB9A0255D073329A05C154B13E /* TSJoker */,
+				B7E3988881ADF327B6BBB227213F068E /* TSJoker */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -304,7 +306,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				34A64E549E5B5B7D44AF94046969A1A8 /* PBXTargetDependency */,
+				9309254FAF27D0F0E4316E2F2E3890FD /* PBXTargetDependency */,
 			);
 			name = "Pods-TSJoker_Tests";
 			productName = "Pods-TSJoker_Tests";
@@ -393,11 +395,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		34A64E549E5B5B7D44AF94046969A1A8 /* PBXTargetDependency */ = {
+		9309254FAF27D0F0E4316E2F2E3890FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TSJoker_Example";
 			target = 62B74F960828BDCC2A33684CD5D59E06 /* Pods-TSJoker_Example */;
-			targetProxy = 4ABFF99CCED29B34B72C4F885D076F0C /* PBXContainerItemProxy */;
+			targetProxy = A210F1ACD559CE96419373A6DE191D88 /* PBXContainerItemProxy */;
 		};
 		B2EBCDA88899AC391C57D0DA33AF71DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -408,69 +410,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		242EC376F4B9518E60BEEE26CA9F247F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB61B322010CB0E4B44BF7561ACE8AF8 /* TSJoker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TSJoker/TSJoker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TSJoker/TSJoker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TSJoker/TSJoker.modulemap";
-				PRODUCT_MODULE_NAME = TSJoker;
-				PRODUCT_NAME = TSJoker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		292CA959CE5AE49B2F741C4AC25083EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB61B322010CB0E4B44BF7561ACE8AF8 /* TSJoker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TSJoker/TSJoker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TSJoker/TSJoker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TSJoker/TSJoker.modulemap";
-				PRODUCT_MODULE_NAME = TSJoker;
-				PRODUCT_NAME = TSJoker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		41EBDBB2A5B02F6A81F384EF7B49CAA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D615173CCCB1E4A4DC0C629177F32B2B /* Pods-TSJoker_Example.debug.xcconfig */;
@@ -561,6 +500,38 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5BEBE06A03AB70D1DF8F8A1FEB86D867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECF6659C228488314DE548760774D07 /* TSJoker.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TSJoker/TSJoker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSJoker/TSJoker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TSJoker/TSJoker.modulemap";
+				PRODUCT_MODULE_NAME = TSJoker;
+				PRODUCT_NAME = TSJoker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -695,6 +666,37 @@
 			};
 			name = Debug;
 		};
+		7F2C32BB5868EE6B2CBD822909FED898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B31B0293B6B6B94C2C62E581C70DE1 /* TSJoker.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TSJoker/TSJoker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSJoker/TSJoker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TSJoker/TSJoker.modulemap";
+				PRODUCT_MODULE_NAME = TSJoker;
+				PRODUCT_NAME = TSJoker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F353E1A11879C697575D38DE55E978A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2E9F616C4EC1F27E49457780AB6FEC7B /* Pods-TSJoker_Tests.release.xcconfig */;
@@ -744,8 +746,8 @@
 		9C59881A4190E6F22AB51A4E21C7E6D6 /* Build configuration list for PBXNativeTarget "TSJoker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				242EC376F4B9518E60BEEE26CA9F247F /* Debug */,
-				292CA959CE5AE49B2F741C4AC25083EB /* Release */,
+				7F2C32BB5868EE6B2CBD822909FED898 /* Debug */,
+				5BEBE06A03AB70D1DF8F8A1FEB86D867 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

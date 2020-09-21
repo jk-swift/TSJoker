@@ -30,6 +30,8 @@
 + (void)registerWithHost:(NSString *)host
 {
     NSCAssert([host length] > 0, @"Error: host is empty...");
+    NSCAssert(SHARED_JOKER.host == nil, @"Error: host has been registered...");
+    
     SHARED_JOKER.host = host;
 }
 
@@ -78,7 +80,7 @@
                                                                 cachePolicy:NSURLRequestUseProtocolCachePolicy
                                                             timeoutInterval:10];
     [request setHTTPMethod:@"Post"];
-    [request addValue:@"application/x-www-form-urlencoded;charset=utf-8" forHTTPHeaderField:@"Content-Type"];
+    [request addValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     
     NSString *postStr = [self parseParams:params];
     [request setHTTPBody:[postStr dataUsingEncoding:NSUTF8StringEncoding]];
@@ -87,10 +89,20 @@
     NSURLSessionDataTask *dataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         if (error) {
             failed(error);
-        } else {
-            NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-            success(dic);
+            return;
         }
+        
+        NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+        NSInteger code = [dic[@"code"] integerValue];
+        
+        if (code != 200) {
+            NSString *msg = [dic[@"msg"] description];
+            NSError *err = [NSError errorWithDomain:@"com.tsjoker.www" code:code userInfo:@{NSLocalizedFailureReasonErrorKey: msg}];
+            failed(err);
+            return;
+        }
+        
+        success(dic);
     }];
     [dataTask resume];
 }
@@ -98,19 +110,18 @@
 - (NSString *)parseParams:(NSDictionary *)params
 {
     NSMutableDictionary *parameters = [[NSMutableDictionary alloc] initWithDictionary:params];
+    
     [parameters setValue:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleIdentifier"] forKey:@"bundle_id"];
     [parameters setValue:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"] forKey:@"build_no"];
-    NSLog(@"请求参数:%@", parameters);
-
-    NSString *keyValueFormat;
-    NSMutableString *result = [NSMutableString new];
-    NSEnumerator *keyEnum = [parameters keyEnumerator];
-    id key;
-    while (key = [keyEnum nextObject]) {
-        keyValueFormat = [NSString stringWithFormat:@"%@=%@&", key, [params valueForKey:key]];
-        [result appendString:keyValueFormat];
+    
+    for (NSString *key in params) {
+        NSLog(@"%@ : %@", key, [params objectForKey:key]);
+        [parameters setValue:[params objectForKey:key] forKey:key];
     }
-    return result;
+    
+    NSData *data = [NSJSONSerialization dataWithJSONObject:[parameters copy] options:NSJSONWritingPrettyPrinted error:nil];
+
+    return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 }
 
 @end
