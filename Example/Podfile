@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TSJoker_Example' do
+  pod 'TSJoker', :path => '../'
+
+  target 'TSJoker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

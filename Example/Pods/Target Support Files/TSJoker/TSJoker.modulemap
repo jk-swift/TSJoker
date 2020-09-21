@@ -1,0 +1,6 @@
+framework module TSJoker {
+  umbrella header "TSJoker-umbrella.h"
+
+  export *
+  module * { export * }
+}

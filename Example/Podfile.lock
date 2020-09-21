@@ -1,0 +1,16 @@
+PODS:
+  - TSJoker (0.1.0)
+
+DEPENDENCIES:
+  - TSJoker (from `../`)
+
+EXTERNAL SOURCES:
+  TSJoker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TSJoker: babdcf1055a4ebecc22b8ccde80b95d8a55aceb6
+
+PODFILE CHECKSUM: 5669eb8128b21b1c37c538640e13826ef0fc0d73
+
+COCOAPODS: 1.7.1
